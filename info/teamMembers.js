@@ -1,4 +1,4 @@
-[
+var staff = [
   {
     "name": "Ahmad", 
     "occupation": "Class Coordinator",
@@ -24,12 +24,6 @@
     "image": "img/team/Besslan.jpg"
   },
   {
-    "name": "Elyse", 
-    "occupation": "HIR",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-    "image": ""
-  },
-  {
     "name": "Esraa", 
     "occupation": "HIR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
@@ -52,12 +46,6 @@
     "occupation": "HIR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
     "image": "img/team/Jozaa.jpg"
-  },
-  {
-  "name": "Ocean", 
-  "occupation": "",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-  "image": ""
   },
   {
     "name": "Sahar", 
