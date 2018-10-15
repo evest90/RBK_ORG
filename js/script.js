@@ -11,27 +11,41 @@ $(window).on('load', function () { // makes sure that whole site is loaded
                 Team
 ============================================ */
 $(function () {
-    $("#team-members").owlCarousel({
-        items: 2,
-        autoplay: true,
-        smartSpeed: 700,
-        loop: true,
-        autoplayHoverPause: true,
-        nav: true,
-        dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            // breakpoint from 0 up
-            0: {
-                items: 1
-            },
-            // breakpoint from 480 up
-            480: {
-                items: 2
-            }
+
+    // $.getJSON("./info/teamMembers.json", function (data) {  
+        let array = staff
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            const $element ='<div class="team-member"><img src="'+element.image+'" alt="team member" class="img-responsive"><div class="team-member-overlay"><div class="team-member-info text-center"><h6>'+element.name+'</h6><p>'+element.occupation+'</p><p class="member">'+element.description+'</p></div></div></div>'
+    
+            $('#team-members').append($element)
+            
         }
+        $("#team-members").owlCarousel({
+            items: 2,
+            autoplay: true,
+            smartSpeed: 700,
+            loop: true,
+            autoplayHoverPause: true,
+            nav: true,
+            dots: false,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            responsive: {
+                // breakpoint from 0 up
+                0: {
+                    items: 1
+                },
+                // breakpoint from 480 up
+                480: {
+                    items: 2
+                }
+            }
+        });
+    // });
+        staff = undefined
     });
-});
+
+  
 
 /* =========================================
                 Progress Bars
@@ -211,7 +225,17 @@ $(function () {
 /* =========================================
                Testimonials
 ============================================ */
+
 $(function () {
+    let array = graduates
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            const $element ='<div class="testimonial"><div class="row"><div class="col-md-6 col-sm-6 col-xs-6"> <h3>'+element.occupation+'</h3></div></div><p>'+element.qoute+'</p> <div class="author"><div class="row"><div class="col-md-2 col-sm-3 col-xs-6"><img src="'+ element.image+'" alt="client" class="img-responsive img-circle"></div><div class="col-md-10 col-sm-3 col-xs-6"> <div class="author-name-des"> <p>'+element.name+'</p><p>'+element.cohort_number+'</p> </div> </div> </div> </div> </div>'
+            
+
+            $('#testimonial-slider').append($element)
+            
+        }
     $("#testimonial-slider").owlCarousel({
         items: 1,
         autoplay: false,
@@ -222,6 +246,7 @@ $(function () {
         dots: false,
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
     });
+    graduates = undefined
 });
 
 
@@ -242,6 +267,15 @@ $(function () {
               Clients
 ============================================ */
 $(function () {
+    //  $.getJSON("./info/graduates.json", function (data) {  
+        let array = hiringPartners
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            const $element ='<div class="client"><img src="'+ element.image +'" class="img-responsive" alt="client"></div>'
+
+            $('#clients-list').append($element)
+            
+        }
     $("#clients-list").owlCarousel({
         items: 6,
         autoplay: false,
@@ -266,6 +300,8 @@ $(function () {
             }
         }
     });
+//    })
+    hiringPartners = undefined
 });
 
 
@@ -464,3 +500,4 @@ $(function () {
         }, 1250, 'easeInOutExpo');
     });
 });
+
