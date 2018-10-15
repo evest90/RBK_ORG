@@ -87,7 +87,9 @@ $(function () {
 $(window).on('load', function () {
 
     // Initialize Isotope
-    $("#isotope-container").isotope({});
+    $("#isotope-container").isotope({
+        filter: '.professionalism'
+    });
 
     // filter items on button click
     $("#isotope-filters").on('click', 'button', function () {
@@ -110,48 +112,19 @@ $(window).on('load', function () {
 ============================================ */
 $(function () {
 
-    $("#portfolio-wrapper").magnificPopup({
+    $("#portfolio-wrapper1").magnificPopup({
         // delegate: 'a', // child items selector, by clicking on it popup will open
         items: [
             {
                 src: $(
                     `
                     <h3 style="color:white; text-align:center">
-                    Admissions
+                    Interim Coaching/ID Development
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                        We graduate the best software programmers this side of the hemisphere if not the world ! It takes grit, passion, dedication and commitment to finish the course and begin a prosperous and fulfilling life. Before you are officially admitted to the Program, you’ll have to commit to 16-hour days for 4 months in order to graduate as a Silicon Valley grade software engineer. 
-
-                        In order for you to succeed, we’d like to know a bit more about you. Our Admissions gate is designed for you to test yourself and see if you have what it takes. Ranging from mindset to technical ability, the Admissions tests will require your full attention and time.
-
-                        Anyone can apply for our eXtreme Learning program ! All you have to do is pass our Admissions tests. These tests can last anywhere between 2 to 3 months depending on the effort you put in. Once you’ve crossed those hurdles, you earn the right to an interview. All the information and answers you provide are confidential and will not be shared with anyone but you !
-
-                        What You Can Expect
-
-                        200 questions that you must complete. These will help us to get to know you
-                        250 to 300 online lessons that you must successfully complete and pass 
-
-                        Yes. It sounds hard, we know. But if you can do this, you can do anything !
-
-                        Good Luck !
-
-                        Get After Your Dream 
-
+                       Talk about stuff here
                     </div>
                     <div style="text-align:center">
-                    <div>
-                      <button 
-                        style="color: #fff;
-                        border: 1px solid #b40381;
-                        background-color: #b40381;
-                        border-radius:28px;
-                        margin-bottom: 20px;
-                        "
-                       >
-                      APPLY HERE!
-                      </button>
-                      </div>
-                      <div>
                       <button 
                         style="color: #fff;
                         border: 1px solid #b40381;
@@ -161,7 +134,6 @@ $(function () {
                        >
                       CLOSE
                       </button>
-                      </div>
                     </div>
                     `
                 ),
@@ -181,21 +153,78 @@ $(function () {
                 src: $(
                     `
                     <h3 style="color:white; text-align:center">
-                    A Typical Day at RBK
+                    Workshops/Tech/Mentorship by Companies
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                        Expect to kick off with the class coordinator who’ll ask about your previous day. They’ll encourage you to get enough sleep so you can be productive. They’ll also give you a toy problem (small challenge based on what you’ve learned so far). You’ll get a break that most students use to brainstorm solutions with each other. Everyone has a different approach to solving something!
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
+    $("#portfolio-wrapper3").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Soft Skills
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
-                        Then you’ll get a little lecture from the tech team that’s usually more of an introduction to the day’s material or an explanation of a main concept that you might be applying.
-                        
-                        You’ll hear the lecturer say “Guys ! Back to hacking!”.  You’ll hack in pairs and every two days you’ll get a different teammate. You’ll keep hacking until it’s lunch time !  You’ll also be encouraged to take regular breaks, maybe a quick walk just to unplug.
-                        
-                        After lunch you’ll take part in a 5-minute public lightning talk where you can talk about any topic that interests you. On many occasions, this will be followed by a talk from one of the hiring partners telling you about their company. 
-                         
-                        You’ll continue hacking until it’s unplugging hour. This is your de-stress hour. Sometimes we do yoga, sometimes we meditate, or go for a group walk … And sometimes we paint, sing or even dance. Anything to keep us away from screens !
-                        
-                        You’ll continue hacking until the end of the day with a dinner break. Finally, you’ll say goodbye and dream of your bed.
+    $("#portfolio-wrapper4").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Visiting Tech Mentors<
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
                     </div>
                     <div style="text-align:center">
                       <button 
