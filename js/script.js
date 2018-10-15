@@ -319,7 +319,7 @@ $(window).on('load', function () {
 
     // 1. Render Map
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
+        zoom: 15,
         center: myLatlng
     });
 
