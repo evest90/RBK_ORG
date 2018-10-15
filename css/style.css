@@ -272,13 +272,94 @@ ul {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    padding: 3px 15px;
-    border-radius: 100%;
+    border-radius: 50%;
+    padding: 4px 13px;
     font-size: 22px;
+    border-radius: 50%;
     display: none;
 }
 
+/* Apply Button */
+.btn--primary {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #b40381;
+    bottom: 3px;
+    left: 15px;
+}
 
+.btn--primary a {
+    color: #fff !important
+}
+
+.btn--primary:focus {
+    outline: none;
+}
+
+.btn--primary {
+    color: #b40381;
+}
+
+.btn--border {
+    border: 2px solid #b40381;
+    border-radius: 10px;
+}
+
+.btn--border:hover {
+    border: 2px solid #b40381;
+}
+
+.btn--primary a:hover {
+    color: black !important;
+}
+
+.btn--primary {
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+.btn--primary:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    z-index: -1;
+}
+
+.btn--primary:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.45, 1.64, 0.10, 0.66);
+}
+
+.btn--primary {
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);    
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.btn--primary {
+    @-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+}
 
 /* =========================================
                 Arrow Down
@@ -1558,7 +1639,7 @@ ul#navbar-nav > li > a:focus {
   /* replace text with image */
   overflow: hidden;
   white-space: nowrap;
-  color: transparent;
+  color: #ffffff: ;
   pointer-events: auto;
 }
 .vertical-trigger span, .vertical-trigger span::after, .vertical-trigger span::before {
@@ -1609,7 +1690,7 @@ ul#navbar-nav > li > a:focus {
   transform: translateY(6px);
 }
 .no-touch .vertical-trigger:hover ~ .vertical-nav-bg {
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.9);
 }
 .nav-is-visible .vertical-trigger span {
   background-color: transparent;
@@ -1667,7 +1748,6 @@ ul#navbar-nav > li > a:focus {
   -ms-transform: translateY(-50%) scale(0);
   -o-transform: translateY(-50%) scale(0);
   transform: translateY(-50%) scale(0);
-  opacity: .6;
 }
 
 .vertical-nav ul #ver-nav-1::after {
@@ -1677,7 +1757,7 @@ ul#navbar-nav > li > a:focus {
   width: 16px;
   right: 22px;
   top: 50%;
-  opacity: .6;
+  opacity: .8;
   background: url(../img/vertical-nav/2.svg);
 }
 
@@ -1688,7 +1768,7 @@ ul#navbar-nav > li > a:focus {
   width: 16px;
   right: 22px;
   top: 50%;
-  opacity: .6;
+  opacity: .8;
   background: url(../img/vertical-nav/3.svg);
 }
 
@@ -1699,7 +1779,7 @@ ul#navbar-nav > li > a:focus {
   width: 16px;
   right: 22px;
   top: 50%;
-  opacity: .6;
+  opacity: .8;
   background: url(../img/vertical-nav/5.svg);
 }
 
@@ -1710,7 +1790,7 @@ ul#navbar-nav > li > a:focus {
   width: 16px;
   right: 22px;
   top: 50%;
-  opacity: .6;
+  opacity: .8;
   background: url(../img/vertical-nav/6.svg);
 }
 
@@ -1721,7 +1801,7 @@ ul#navbar-nav > li > a:focus {
   width: 16px;
   right: 22px;
   top: 50%;
-  opacity: .6;
+  opacity: .8;
   background: url(../img/vertical-nav/1.svg);
 }
 
@@ -1732,7 +1812,7 @@ ul#navbar-nav > li > a:focus {
   width: 16px;
   right: 22px;
   top: 50%;
-  opacity: .6;
+  opacity: .8;
   background: url(../img/vertical-nav/4.svg);
 }
 
