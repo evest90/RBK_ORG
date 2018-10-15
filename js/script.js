@@ -64,8 +64,8 @@ $(function () {
 
         this.destroy();
     }, {
-        offset: 'bottom-in-view'
-    });
+            offset: 'bottom-in-view'
+        });
 
 });
 
@@ -111,12 +111,114 @@ $(window).on('load', function () {
 $(function () {
 
     $("#portfolio-wrapper").magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Admissions
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                        We graduate the best software programmers this side of the hemisphere if not the world ! It takes grit, passion, dedication and commitment to finish the course and begin a prosperous and fulfilling life. Before you are officially admitted to the Program, you’ll have to commit to 16-hour days for 4 months in order to graduate as a Silicon Valley grade software engineer. 
+
+                        In order for you to succeed, we’d like to know a bit more about you. Our Admissions gate is designed for you to test yourself and see if you have what it takes. Ranging from mindset to technical ability, the Admissions tests will require your full attention and time.
+
+                        Anyone can apply for our eXtreme Learning program ! All you have to do is pass our Admissions tests. These tests can last anywhere between 2 to 3 months depending on the effort you put in. Once you’ve crossed those hurdles, you earn the right to an interview. All the information and answers you provide are confidential and will not be shared with anyone but you !
+
+                        What You Can Expect
+
+                        200 questions that you must complete. These will help us to get to know you
+                        250 to 300 online lessons that you must successfully complete and pass 
+
+                        Yes. It sounds hard, we know. But if you can do this, you can do anything !
+
+                        Good Luck !
+
+                        Get After Your Dream 
+
+                    </div>
+                    <div style="text-align:center">
+                    <div>
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        margin-bottom: 20px;
+                        "
+                       >
+                      APPLY HERE!
+                      </button>
+                      </div>
+                      <div>
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                      </div>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
         type: 'image',
         gallery: {
             enabled: true
         }
     });
+
+    $("#portfolio-wrapper2").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    A Typical Day at RBK
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                        Expect to kick off with the class coordinator who’ll ask about your previous day. They’ll encourage you to get enough sleep so you can be productive. They’ll also give you a toy problem (small challenge based on what you’ve learned so far). You’ll get a break that most students use to brainstorm solutions with each other. Everyone has a different approach to solving something!
+
+
+                        Then you’ll get a little lecture from the tech team that’s usually more of an introduction to the day’s material or an explanation of a main concept that you might be applying.
+                        
+                        You’ll hear the lecturer say “Guys ! Back to hacking!”.  You’ll hack in pairs and every two days you’ll get a different teammate. You’ll keep hacking until it’s lunch time !  You’ll also be encouraged to take regular breaks, maybe a quick walk just to unplug.
+                        
+                        After lunch you’ll take part in a 5-minute public lightning talk where you can talk about any topic that interests you. On many occasions, this will be followed by a talk from one of the hiring partners telling you about their company. 
+                         
+                        You’ll continue hacking until it’s unplugging hour. This is your de-stress hour. Sometimes we do yoga, sometimes we meditate, or go for a group walk … And sometimes we paint, sing or even dance. Anything to keep us away from screens !
+                        
+                        You’ll continue hacking until the end of the day with a dinner break. Finally, you’ll say goodbye and dream of your bed.
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+    
 
 });
 
@@ -351,51 +453,51 @@ $(window).on('load', function () {
 /* =========================================
                 Reactor logo
 ============================================ */
-$(function(){
-  $("#hackreactor").on({
-   mouseenter: function(){
-    $(this).attr('src','./img/logo/hack-reactor-logo.png');
-  },
-  mouseleave: function(){
-    $(this).attr('src','./img/logo/hack-reactor-logo-white.png');
-  }
-  });
+$(function () {
+    $("#hackreactor").on({
+        mouseenter: function () {
+            $(this).attr('src', './img/logo/hack-reactor-logo.png');
+        },
+        mouseleave: function () {
+            $(this).attr('src', './img/logo/hack-reactor-logo-white.png');
+        }
+    });
 });
 
 
 /* =========================================
             Vertical Navigation Bar
 ============================================ */
-$(function(){
-	if( $('.vertical-nav').length > 0 ) {
-		var stretchyNavs = $('.vertical-nav');
-		
-		stretchyNavs.each(function(){
-			var stretchyNav = $(this),
-				stretchyNavTrigger = stretchyNav.find('.vertical-trigger');
-			
-			stretchyNavTrigger.on('click', function(event){
-				event.preventDefault();
-				stretchyNav.toggleClass('nav-is-visible');
-			});
-		});
+$(function () {
+    if ($('.vertical-nav').length > 0) {
+        var stretchyNavs = $('.vertical-nav');
 
-		$(document).on('click', function(event){
-			( !$(event.target).is('.vertical-trigger') && !$(event.target).is('.vertical-trigger span') ) && stretchyNavs.removeClass('nav-is-visible');
-		});
-	}
+        stretchyNavs.each(function () {
+            var stretchyNav = $(this),
+                stretchyNavTrigger = stretchyNav.find('.vertical-trigger');
+
+            stretchyNavTrigger.on('click', function (event) {
+                event.preventDefault();
+                stretchyNav.toggleClass('nav-is-visible');
+            });
+        });
+
+        $(document).on('click', function (event) {
+            (!$(event.target).is('.vertical-trigger') && !$(event.target).is('.vertical-trigger span')) && stretchyNavs.removeClass('nav-is-visible');
+        });
+    }
 });
 
 // Vertical Navbar Smooth Scrolling 
-$(function(){
-     $('.vertical-nav ul li a[href*="#"]').on('click', function (e) {
-         e.preventDefault();
-         var target = this.hash,
-             $target = $(target);
+$(function () {
+    $('.vertical-nav ul li a[href*="#"]').on('click', function (e) {
+        e.preventDefault();
+        var target = this.hash,
+            $target = $(target);
 
-         $('html, body').stop().animate({
-             'scrollTop': $target.offset().top - 64
-         }, 1250, 'easeInOutExpo');
-     });
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top - 64
+        }, 1250, 'easeInOutExpo');
+    });
 });
 
