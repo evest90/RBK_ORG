@@ -221,7 +221,245 @@ $(function () {
                 src: $(
                     `
                     <h3 style="color:white; text-align:center">
-                    Visiting Tech Mentors<
+                    Visiting Tech Mentors
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper5").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Health/Meditation
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper6").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Social Nights
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper7").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Counselor
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper8").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Transportation
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper9").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Housing
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper10").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Meals
+                    </h3>
+                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                       Talk about stuff here
+                    </div>
+                    <div style="text-align:center">
+                      <button 
+                        style="color: #fff;
+                        border: 1px solid #b40381;
+                        background-color: #b40381;
+                        border-radius:28px;
+                        "
+                       >
+                      CLOSE
+                      </button>
+                    </div>
+                    `
+                ),
+                type: 'inline'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+    $("#portfolio-wrapper11").magnificPopup({
+        // delegate: 'a', // child items selector, by clicking on it popup will open
+        items: [
+            {
+                src: $(
+                    `
+                    <h3 style="color:white; text-align:center">
+                    Labs with Computers
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
                        Talk about stuff here
