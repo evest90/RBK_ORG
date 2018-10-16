@@ -5,9 +5,9 @@ var graduates = [
     "before": "Tenders manager in Hama, Syria",
     "occupation": "Full Stack Developer",
     "company": "Arabia Weather",
-    "image": "img/testimonial/.jpg",
     "quote": "RBK is a life changing experience, it literally changed my life !",
-    "cohort_number": "Cohort 1"
+    "cohort_number": "Cohort 1",
+    "image": "img/testimonial/client-3.jpg"
   },
   {
     "name": "Mohammad Albakri",
@@ -15,9 +15,9 @@ var graduates = [
     "before": "Cashier",
     "occupation": "Software Engineer",
     "company": "BriteCore",
-    "image": "img/testimonial/.jpg",
     "quote": "RBK definitely helped me to get my dream job !",
-    "cohort_number": "Cohort 1"
+    "cohort_number": "Cohort 1",
+    "image": "img/testimonial/client-1.jpg"
   },
   {
     "name": "Rowaida Almehanni",
@@ -25,9 +25,9 @@ var graduates = [
     "before": "Unemployed",
     "occupation": "Software Engineer",
     "company": "Salalem",
-    "image": "img/testimonial/.jpg",
     "quote": "RBK opened a new success way in my life !",
-    "cohort_number": "Cohort 2"
+    "cohort_number": "Cohort 2",
+    "image": "img/testimonial/client-3.jpg"
   },
   {
     "name": "Ahmad Khasawneh",
@@ -35,9 +35,9 @@ var graduates = [
     "before": "Unemployed",
     "occupation": "Operating & Traffic Analyst",
     "company": "Expedia",
-    "image": "img/testimonial/.jpg",
     "quote": "RBK opens horizons that let you reach your imaginary dream job",
-    "cohort_number": "Cohort 2"
+    "cohort_number": "Cohort 2",
+    "image": "img/testimonial/client-1.jpg"
   },
   {
     "name": "Atheer Mahmood",
@@ -45,9 +45,9 @@ var graduates = [
     "before": "He was working as IT support in Iraq",
     "occupation": "Full Stack Developer",
     "company": "Codacity",
-    "image": "img/testimonial/.jpg",
     "quote": "RBK is the best decision I’ve ever made in my life !",
-    "cohort_number": "Cohort 4"
+    "cohort_number": "Cohort 4",
+    "image": "img/testimonial/client-1.jpg"
   },
 
 ]
