@@ -459,7 +459,10 @@ ul {
 
 #about-bottom img {
     margin: 0 auto;
-    width: 550px
+    /* jozaa change it for 550px to 100% */
+    /* width: 550px */
+    width: 100%;
+
 }
 
 
