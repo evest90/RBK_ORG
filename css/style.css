@@ -500,6 +500,23 @@ ul {
     margin-top: 20px;
 }
 
+.about-item ul {
+    text-align: left;
+    margin-left: -30px;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.daily-schedule-headline {
+  color: #b40381;
+}
+
+.morning {
+    margin-bottom: 120px;
+}
 
 /* Hover state */
 
@@ -519,6 +536,18 @@ ul {
 
 .about-item:hover i {
     transform: translateY(-20px);
+}
+
+.about-item:hover strong {
+    color: #fff;
+}
+
+.about-item:hover li {
+    color: #fff;
+}
+
+.about-item:hover h4 {
+    color: #fff;
 }
 
 
