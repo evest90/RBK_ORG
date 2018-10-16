@@ -643,6 +643,16 @@ ul.social-list li:nth-child(3) a:hover {
     font-size: 40px;
     background: none;
     margin: 0;
+    margin-bottom: 70px
+}
+
+@media screen and (max-width: 800px) {
+    .owl-theme .owl-nav [class*=owl-] {
+        color: #212226;
+        font-size: 40px;
+        background: none;
+        margin: 0;
+    }
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
