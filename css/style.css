@@ -866,7 +866,6 @@ ul.social-list li:nth-child(3) a:hover {
     position: relative;
 }
 
-
 /* Filters CSS */
 
 #isotope-filters {
@@ -900,6 +899,17 @@ ul.social-list li:nth-child(3) a:hover {
 
 
 /* Zoom Effect */
+
+
+.mind {
+    width: 33.33%
+}
+
+@media screen and (max-width: 800px) {
+    .mind {
+      width: 100%;
+    }
+}
 
 .portfolio-item img {
     width: 100%;
