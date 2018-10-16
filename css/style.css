@@ -938,13 +938,13 @@ ul.social-list li:nth-child(3) a:hover {
 
 /* Overlay Effect */
 
-.portfolio-item-overlay {
+.portfolio-item-overlay1 {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(14, 14, 17, 0.9);
+    background: rgba(88,16,108, 1);
     cursor: -webkit-zoom-in;
     cursor: pointer;
     opacity: 0;
@@ -952,6 +952,145 @@ ul.social-list li:nth-child(3) a:hover {
     transition: all 0.5s ease;
 }
 
+.portfolio-item-overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(37,163,210, 1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(220,1,98,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(246,79,8,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,86,35,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,178,56,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(12,10,62,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay8 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(225,102,187,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay9 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(74,138,80,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay10 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(1,63,127,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay11 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(239,187,5,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
 /* Item Details Effect */
 
@@ -965,7 +1104,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .portfolio-item-details h3 {
-    color: #b40381;
+    color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     margin: 0;
@@ -1010,9 +1149,50 @@ ul.social-list li:nth-child(3) a:hover {
     transform: translateY(0);
 }
 
-.portfolio-item:hover .portfolio-item-overlay {
+.portfolio-item .portfolio-item-overlay1 {
     opacity: 1;
 }
+
+.portfolio-item .portfolio-item-overlay2 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay3 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay4 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay5 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay6 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay7 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay8 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay9 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay10 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay11 {
+    opacity: 1;
+}
+
 
 
 /* =========================================
