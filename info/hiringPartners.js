@@ -1,6 +1,7 @@
 var hiringPartners = [
   {
-    "image": "img/client/microsoft.png"
+    "image": "img/client/microsoft.png",
+    "url": "https://www.microsoft.com/en-jo"
   },
   {
     "image": "img/client/mbc.png"
