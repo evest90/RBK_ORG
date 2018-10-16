@@ -994,6 +994,104 @@ ul.social-list li:nth-child(3) a:hover {
     transition: all 0.5s ease;
 }
 
+.portfolio-item-overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,86,35,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,178,56,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(12,10,62,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay8 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(225,102,187,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay9 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(74,138,80,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay10 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(1,63,127,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay11 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(239,187,5,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
 /* Item Details Effect */
 
 .portfolio-item-details {
@@ -1066,6 +1164,36 @@ ul.social-list li:nth-child(3) a:hover {
 .portfolio-item .portfolio-item-overlay4 {
     opacity: 1;
 }
+
+.portfolio-item .portfolio-item-overlay5 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay6 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay7 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay8 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay9 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay10 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay11 {
+    opacity: 1;
+}
+
+
 
 /* =========================================
                 Testimonials
