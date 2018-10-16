@@ -511,9 +511,9 @@ $(function () {
       + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;">'
 
       + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
-      
-      + '</div>'
 
+      + '</div>'
+//d-flex justify-content-center align-items-center
       + '<div class="col-md-10 col-sm-3 col-xs-6 ">'
       + '<div class="author-name-des">'
       + '<p><b>' + element.name + '</b></p>'
