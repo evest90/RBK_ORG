@@ -501,3 +501,24 @@ $(function () {
     });
 });
 
+
+ function test(){
+  
+        $('.submit').click(function() {
+            $.ajax({
+                type: 'POST',
+                url: "https://docs.google.com/forms/d/e/1FAIpQLScHAIv8OFLYtPhGqZK-JmyyjEghSaWAtO9M5AVh0Kx5OOqn8w/formResponse",
+                data: $(this).serialize(),
+                error: function()
+                {
+                    window.location.reload()
+                },
+                success: function(response)
+                {  
+                   window.location.reload()
+                }
+            });
+            return false;
+        }); 
+ 
+}
