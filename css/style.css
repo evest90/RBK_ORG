@@ -1384,7 +1384,8 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .testimonial .row {
-    margin-bottom: 25px;
+    /* jozaa remove it */
+    /* margin-bottom: 25px; */
 }
 
 .testimonial {
@@ -1410,8 +1411,9 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .author .author-name-des {
-    width: 106px;
-    margin-top: 25px;
+    width: 160px;
+    /* jozaa remove it */
+    /* margin-top: 25px; */
     text-align: left;
 }
 
