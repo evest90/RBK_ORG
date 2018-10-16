@@ -543,7 +543,7 @@ $(function () {
   let array = hiringPartners
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
-    const $element = '<div class="client"><img src="' + element.image + '" class="img-responsive" alt="client"></div>'
+    const $element = '<div class="client"><a href="' + element.url + '"><img src="' + element.image + '" class="img-responsive" alt="client"></a></div>'
 
     $('#clients-list').append($element)
 
