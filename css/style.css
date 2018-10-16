@@ -938,13 +938,13 @@ ul.social-list li:nth-child(3) a:hover {
 
 /* Overlay Effect */
 
-.portfolio-item-overlay {
+.portfolio-item-overlay1 {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(14, 14, 17, 0.9);
+    background: rgba(88,16,108, 1);
     cursor: -webkit-zoom-in;
     cursor: pointer;
     opacity: 0;
@@ -952,6 +952,47 @@ ul.social-list li:nth-child(3) a:hover {
     transition: all 0.5s ease;
 }
 
+.portfolio-item-overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(37,163,210, 1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(220,1,98,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(246,79,8,1);
+    cursor: -webkit-zoom-in;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
 /* Item Details Effect */
 
@@ -965,7 +1006,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .portfolio-item-details h3 {
-    color: #b40381;
+    color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     margin: 0;
@@ -1010,10 +1051,21 @@ ul.social-list li:nth-child(3) a:hover {
     transform: translateY(0);
 }
 
-.portfolio-item:hover .portfolio-item-overlay {
+.portfolio-item .portfolio-item-overlay1 {
     opacity: 1;
 }
 
+.portfolio-item .portfolio-item-overlay2 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay3 {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-overlay4 {
+    opacity: 1;
+}
 
 /* =========================================
                 Testimonials
