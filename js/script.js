@@ -224,7 +224,7 @@ $(function () {
                     Visiting Tech Mentors
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                       Talk about stuff here
+                    Don’t be surprised if you see a western guy or girl @ RBK. We have an exchange program whereby highly experienced developers come from all over the world to share their experience and help you get in-depth understanding of what you’re learning and how to apply it. They take time off from their work and fly to Jordan just to be with you, share your culture and learn how to pronounce your name !
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -292,7 +292,7 @@ $(function () {
                     Social Nights
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                       Talk about stuff here
+                    Every end of week ends with a bang ! Water-balloon fights, relaxing in a candle-lit garden, BBQ, music, or bring your own instrument, bowling, AR games, movies, …, etc., is how we wrap up a hard week’s work. You’ll deserve it !
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -326,7 +326,7 @@ $(function () {
                     Counselor
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                       Talk about stuff here
+                    Throughout your journey, you will be supported, If you’re feeling down, want to give up and break something, then talk to our class counsellor. Don’t be shy, they also take care of our staff !
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -360,7 +360,7 @@ $(function () {
                     Transportation
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                       Talk about stuff here
+                    Starting from Immersive phase, RBK provides local transportation for those who live in Greater Amman area. 
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -394,7 +394,7 @@ $(function () {
                     Housing
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                       Talk about stuff here
+                    Starting from Immersive phase, Housing is limited and only available to those living outside Amman. It is available on a first come, first served basis. RBK does not provide stipends to students. 
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -428,7 +428,7 @@ $(function () {
                     Meals
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                       Talk about stuff here
+                    Starting from Immersive phase, RBK provides 3 healthy meals a day and considers all nutrition needs for its students.
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -504,7 +504,7 @@ $(function () {
       + element.name + '</p><p>'
       + element.cohort_number + '</p><p>'
       + element.nationality + '</p><p>'
-      +'“'+ element.quote+'” '
+      + '“' + element.quote + '” '
       + '</p> </div> </div> </div> </div> </div>'
     $('#testimonial-slider').append($element)
   }

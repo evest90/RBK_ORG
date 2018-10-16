@@ -476,6 +476,17 @@ ul {
     padding: 80px 30px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-item {
+        /* background-color: #fff; */
+        /* padding: 80px 30px; */
+        /* -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+        height: 60vh;
+    }
 }
 
 .about-item i {
@@ -509,6 +520,19 @@ ul {
     font-weight: 400;
     line-height: 24px;
 }
+
+@media only screen and (min-width: 767px) {
+    .about-item p {
+    font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-item p {
+    font-size: 13px;
+    }
+}
+
 
 .daily-schedule-headline {
   color: #b40381;
