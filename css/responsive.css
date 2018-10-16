@@ -52,13 +52,20 @@
 #mobile-nav-content {
     text-align: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 25px;
     position: relative;
     top: 10%;
 }
 
 #mobile-nav ul li {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+#mobile-nav .btn--primary {
+    padding: 18px;
+    display: inline;
+    bottom: 0px;
+    left: 0px;
 }
 
 #mobile-nav a {
@@ -152,6 +159,36 @@
     /* Home */
     #home-heading h1 {
         font-size: 41px;
+    }
+    
+    #founding-partner img {
+        width: 180px;
+    }
+    
+    #founding-partner p {
+        font-size: 12px;
+    }
+    
+    #home-text p {
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    #logo {
+        width: 100px !important;
+    }
+    
+    #logo:hover {
+    transform: scale(0.8);
+    }
+
+    #logo {
+    transition: all 400ms;
+    transform-origin: 50% 50%;
+    }
+    
+    #home-heading-1 {
+        font-size: 41px !important;
     }
 
     #home-text p {
@@ -253,10 +290,18 @@
     #mobile-nav-open-btn {
         display: block;
     }
+    
+    #logo {
+        width: 80px !important;
+    }
 
     /* Home */
     #home-heading h1 {
         font-size: 22px;
+    }
+    
+    #home-heading-1 {
+        font-size: 22px !important;
     }
 
     #home-text p {
