@@ -497,15 +497,31 @@ $(function () {
   let array = graduates
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
-    const $element = '<div class="testimonial"><div class="row"><div class="col-md-6 col-sm-6 col-xs-6"> <h3>'
-      + element.occupation + '</h3></div></div><p>'
-      + element.company + '</p> <div class="author"><div class="row"><div class="col-md-2 col-sm-3 col-xs-6"><img src="'
-      + element.image + '" alt="client" class="img-responsive img-circle"></div><div class="col-md-10 col-sm-3 col-xs-6"> <div class="author-name-des"> <p>'
-      + element.name + '</p><p>'
-      + element.cohort_number + '</p><p>'
-      + element.nationality + '</p><p>'
-      + '“' + element.quote + '” '
-      + '</p> </div> </div> </div> </div> </div>'
+    //change the div contan class bfore h3 col-md-6 col-sm-6 col-xs-6
+    const $element = '<div class="testimonial">'
+
+      + '<div class="row">'
+      + '<h3>' + element.occupation + '</h3>'
+      + '<p>' + element.company + '</p>' + '</div>'
+
+      + '<div class="author">'
+
+      + '<div class="row">'
+
+      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;">'
+
+      + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
+
+      + '</div>'
+//d-flex justify-content-center align-items-center
+      + '<div class="col-md-10 col-sm-3 col-xs-6 ">'
+      + '<div class="author-name-des">'
+      + '<p><b>' + element.name + '</b></p>'
+      + '<p>' + element.cohort_number + '</p>'
+      + '<p><b>' + element.nationality + '</b></p>'
+      + '</div>'
+      + '<p style="margin:0px;">“' + element.quote + '”</p>'
+      + '</div> </div> </div> </div>'
     $('#testimonial-slider').append($element)
   }
   $("#testimonial-slider").owlCarousel({

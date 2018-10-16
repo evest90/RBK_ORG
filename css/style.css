@@ -1371,16 +1371,21 @@ ul.social-list li:nth-child(3) a:hover {
 
 #testimonials .vertical-heading {
     padding: 80px 0;
-    margin-bottom: 50px;
+    /* jozaa remove it */
+    /* margin-bottom: 50px; */
 }
 
 #testimonial-slider {
     background: #b40381;
-    top: -120px;
+    margin-top: 80px;
+    margin-bottom: 80px ;
+    /* jozaa remove it */
+    /* top: -120px; */
 }
 
 .testimonial .row {
-    margin-bottom: 25px;
+    /* jozaa remove it */
+    /* margin-bottom: 25px; */
 }
 
 .testimonial {
@@ -1406,8 +1411,9 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .author .author-name-des {
-    width: 106px;
-    margin-top: 25px;
+    width: 160px;
+    /* jozaa remove it */
+    /* margin-top: 25px; */
     text-align: left;
 }
 
