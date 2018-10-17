@@ -500,9 +500,9 @@ $(function () {
     //change the div contan class bfore h3 col-md-6 col-sm-6 col-xs-6
     const $element = '<div class="testimonial">'
 
-      + '<div class="row" >'
-      + '<h3 style="margin:0">' + element.occupation + '</h3>'
-      + '<p style="margin-top: 5px;margin-bottom: 5px;">' + element.company + '</p>' 
+      + '<div class="row" style="margin-bottom:20px">'
+      + '<h3 style="margin:0"><b>' + element.occupation + '</b></h3>'
+      + '<p style="margin:0;font-size: 20px">' + element.company + '</p>' 
       + '</div>'
 
       + '<div class="row">'

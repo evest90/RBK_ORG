@@ -1365,9 +1365,6 @@ ul.social-list li:nth-child(3) a:hover {
 
 #testimonials {
     background: #f4f4f4;
-    /* padding-bottom: 90px; */
-    /* padding-top: 90px; */
-
     overflow: visible;
 }
 
@@ -1381,9 +1378,6 @@ ul.social-list li:nth-child(3) a:hover {
     background: #b40381;
     margin-top: 90px;
     margin-bottom: 90px;
-
-    /* jozaa remove it */
-    /* top: -120px; */
 }
 
 .testimonial .row {
