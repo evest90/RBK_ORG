@@ -559,7 +559,12 @@ $(function () {
   let array = hiringPartners
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
-    const $element = '<div class="client"><a href="' + element.url + '"><img src="' + element.image + '" class="img-responsive" alt="client"></a></div>'
+    const $element = '<div class="client"><a target="_blank" href="' + element.url + '"><img src="' + element.image + '" class="img-responsive" alt="client"></a></div>'
+    
+    //  $('a').on('click', function() {
+    //    console.log('element url', element.url)
+    //    window.open(`${element.url}`);
+    //  });
 
     $('#clients-list').append($element)
 
