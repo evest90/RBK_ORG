@@ -500,28 +500,36 @@ $(function () {
     //change the div contan class bfore h3 col-md-6 col-sm-6 col-xs-6
     const $element = '<div class="testimonial">'
 
-      + '<div class="row">'
-      + '<h3>' + element.occupation + '</h3>'
-      + '<p>' + element.company + '</p>' + '</div>'
-
-      + '<div class="author">'
-
-      + '<div class="row">'
-
-      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;">'
-
-      + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
-
+      + '<div class="row" >'
+      + '<h3 style="margin:0">' + element.occupation + '</h3>'
+      + '<p style="margin-top: 5px;margin-bottom: 5px;">' + element.company + '</p>' 
       + '</div>'
-//d-flex justify-content-center align-items-center
+
+      + '<div class="row">'
+
+      + '<div class=" author">'
+
+      // + '<div class="d-flex align-items-center">'
+      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;">'
+      + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
+      + '</div>'
+
       + '<div class="col-md-10 col-sm-3 col-xs-6 ">'
+
       + '<div class="author-name-des">'
       + '<p><b>' + element.name + '</b></p>'
       + '<p>' + element.cohort_number + '</p>'
       + '<p><b>' + element.nationality + '</b></p>'
+      + '<p style="margin:0px;"><b>“</b>' + element.quote + '<b>”</b></p>'
       + '</div>'
-      + '<p style="margin:0px;">“' + element.quote + '”</p>'
-      + '</div> </div> </div> </div>'
+
+      + '</div>'
+      
+      // + '</div>'
+
+
+      +'</div>'
+      +'</div> </div>'
     $('#testimonial-slider').append($element)
   }
   $("#testimonial-slider").owlCarousel({
@@ -560,7 +568,7 @@ $(function () {
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
     const $element = '<div class="client"><a target="_blank" href="' + element.url + '"><img src="' + element.image + '" class="img-responsive" alt="client"></a></div>'
-    
+
     //  $('a').on('click', function() {
     //    console.log('element url', element.url)
     //    window.open(`${element.url}`);
