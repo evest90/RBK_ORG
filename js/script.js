@@ -507,23 +507,23 @@ $(function () {
 
       + '<div class="row">'
 
-      + '<div class=" author" style="display: flex;">'
+      + '<div class=" author" style="display:flex;">'
 
       + '<div class="col-md-2" style="padding-left:0px;padding-right:0px;" >'
       + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
       + '</div>'
 
-      + '<div class="col-md-10" style="align-self: center;">'
+      + '<div class="col-md-10" style="align-self:center;">'
 
       + '<div class="author-name-des">'
       + '<p><b>' + element.name + '</b></p>'
       + '<p>' + element.cohort_number + '</p>'
       + '<p><b>' + element.nationality  + '</b></p>'
-      + '<p style="margin:0px;"><b>“</b>' + element.quote + '<b>”</b></p>'
       + '</div>'
 
       + '</div>'
       +'</div>'
+      + '<p ">“<b>' + element.quote + '</b>”</p>'
 
 
 
