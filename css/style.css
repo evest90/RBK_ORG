@@ -1365,7 +1365,6 @@ ul.social-list li:nth-child(3) a:hover {
 
 #testimonials {
     background: #f4f4f4;
-    padding-bottom: 45px;
     overflow: visible;
 }
 
@@ -1377,10 +1376,8 @@ ul.social-list li:nth-child(3) a:hover {
 
 #testimonial-slider {
     background: #b40381;
-    margin-top: 80px;
-    margin-bottom: 80px ;
-    /* jozaa remove it */
-    /* top: -120px; */
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .testimonial .row {
@@ -1411,7 +1408,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .author .author-name-des {
-    width: 160px;
+    /* width: 160px; */
     /* jozaa remove it */
     /* margin-top: 25px; */
     text-align: left;
