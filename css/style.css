@@ -1389,11 +1389,20 @@ ul.social-list li:nth-child(3) a:hover {
     padding: 20px 45px 0 45px;
     color: #fff;
 }
-
-.testimonial h3 {
+.testimonial h1 {
     font-size: 32px;
     line-height: 35px;
 }
+
+.testimonial h3 {
+    font-size: 20px;
+    margin: 0;
+    /* margin-top: 5px; */
+    /* margin-bottom: 20px; */
+    /* line-height: 35px; */
+}
+
+
 
 .testimonial .stars {
     font-size: 20px;
@@ -1401,6 +1410,8 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .testimonial p {
+    font-size: 17px;
+
     line-height: normal;
     margin: 0;
     margin-top: 5px;

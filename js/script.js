@@ -501,25 +501,53 @@ $(function () {
     const $element = '<div class="testimonial">'
 
       + '<div class="row" style="margin-bottom:20px">'
-      + '<h3 style="margin:0"><b>' + element.occupation + '</b></h3>'
-      + '<p style="margin:0;font-size: 20px">' + element.company + '</p>' 
+      + '<h1 ><b>' + element.occupation + '</b></h1>'
+      + '<h3 >' + element.company + '</h3>' 
       + '</div>'
 
       + '<div class="row">'
 
-      + '<div class=" author">'
+      + '<div class=" author" style="display: flex;">'
 
-      // + '<div class="d-flex align-items-center">'
-      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;">'
+      + '<div class="col-md-2" style="padding-left:0px;padding-right:0px;" >'
       + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
       + '</div>'
 
-      + '<div class="col-md-10 col-sm-3 col-xs-6 ">'
+      + '<div class="col-md-10" style="align-self: center;">'
+
+      + '<div class="author-name-des">'
+      + '<p><b>' + element.name + '</b></p>'
+      + '<p>' + element.cohort_number + '</p>'
+      + '<p><b>' + element.nationality  + '</b></p>'
+      + '<p style="margin:0px;"><b>“</b>' + element.quote + '<b>”</b></p>'
+      + '</div>'
+
+      + '</div>'
+      +'</div>'
+
+
+
+            
+      +'</div>'
+      +'</div>'
+
+      /*
+       + '<div class="row">'
+
+      + '<div class=" author">'
+
+      // + '<div class="d-flex align-items-center">'
+      + '<div class="col-md-2" style="padding-left:0px;padding-right:0px;" >'
+      + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
+      + '</div>'
+
+      + '<div class="col-md-10">'
 
       + '<div class="author-name-des">'
       + '<p><b>' + element.name + '</b></p>'
       + '<p>' + element.cohort_number + '</p>'
       + '<p><b>' + element.nationality + '</b></p>'
+      // +'<br>'
       + '<p style="margin:0px;"><b>“</b>' + element.quote + '<b>”</b></p>'
       + '</div>'
 
@@ -529,7 +557,7 @@ $(function () {
 
 
       +'</div>'
-      +'</div> </div>'
+      */
     $('#testimonial-slider').append($element)
   }
   $("#testimonial-slider").owlCarousel({
