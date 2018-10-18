@@ -88,7 +88,7 @@ $(window).on('load', function () {
 
   // Initialize Isotope
   $("#isotope-container").isotope({
-    filter: '.professionalism'
+    filter: '.services'
   });
 
   // filter items on button click

@@ -786,7 +786,7 @@ ul.social-list li:nth-child(2) a {
 }
 
 ul.social-list li:nth-child(2) a:hover {
-	color: #1DA1F2;
+	color: #1DA1F2 !important;
 	border-color: #1DA1F2 !important;
 	background: white !important;
 }
