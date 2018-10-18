@@ -118,12 +118,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     How To Ace An Interview In The Modern World
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     You will not only learn how to write a meaningful CV. As part of your training, you will be coached on how to enhance your interviewing skills in order to accurately convey your personality, abilities and technical skills. Just as importantly, and as part of the 21st century requirements, we will help you develop and update your online presence on a variety of platforms including Quora and Linkedin.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -152,12 +152,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Enhanced Technical Mentoring
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix";>
                     During the Immersive stage of your course, you will not only be trained using the latest technical curriculum alone. Mentoring by market experienced Software Engineers from top companies operating in Jordan will be baked into your course. With this, you will gain valuable knowledge in how to incorporate what you have learned using methodologies applied by real companies in the real world.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -186,12 +186,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     21st Century Soft Skills
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     In the real world, employers do not only seek technical proficiency. More crucial are the soft skills that companies would like to see in their staff. These range from the ability to teach, problem solving, critical thinking, creativity and many more. During your journey, these skills will be integrated into your daily schedule to make you one of the most wanted programmers on the market.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -220,12 +220,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Visiting Tech Mentors
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     Don’t be surprised if you see a western guy or girl @ RBK. We have an exchange program whereby highly experienced developers come from all over the world to share their experience and help you get in-depth understanding of what you’re learning and how to apply it. They take time off from their work and fly to Jordan just to be with you, share your culture and learn how to pronounce your name !
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -254,12 +254,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Your Mind And Body
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     As your days will be long, we ensure that your mind and body are treated in a manner that can support your learning. You will experience a variety of activities that are designed to relieve your stress and help keep your mind sharp and ready. From meditation to yoga, we take care to provide you with an environment that promotes the absorption of continuous learning.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -288,12 +288,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Social Nights
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     Every end of week ends with a bang ! Water-balloon fights, relaxing in a candle-lit garden, BBQ, music, or bring your own instrument, bowling, AR games, movies, …, etc., is how we wrap up a hard week’s work. You’ll deserve it !
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -322,12 +322,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Counselor
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     The Immersive Course can be quite stressful due to the amount of information you will be required to digest in short periods of time. Your days will be long and some might find this difficult. The stress is not limited to students. Even the staff encounter tough days and need to express their frustration. So you don’t have to keep the pressure inside you, we have provided an in-house counsellor who is ready to listen and give you advice.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -356,12 +356,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Transportation
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     During the Immersive Course, RBK provides transportation to its students. Unfortunately, this is only available to students who live within the Greater Amman area.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -390,12 +390,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Housing
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     During the Immersive Course, and since your days will be extremely long, RBK provides basic housing for those who live outside the Greater Amman area. Because the space is extremely limited, housing is allocated on a first-come first-served basis.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -424,12 +424,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Meals
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                     We take your health and ability to learn very seriously. RBK students during the Immersive Course will be offered three meals a day prepared by our in-house chef. The meals are carefully planned in order to supply you with adequate protein, vitamins, fats and carbohydrates so that you don’t have to worry about exhausting your brain or body as you create your future.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
@@ -458,12 +458,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 class="fix-heading">
                     Labs with Computers
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p class="fix">
                        Talk about stuff here
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
