@@ -1334,6 +1334,18 @@ ul.social-list li:nth-child(3) a:hover {
 	transition: all 0.5s;
 }
 
+@media screen and (max-width: 1070px) {
+	.portfolio-item-details h3 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.portfolio-item-details h3 {
+		font-size: 30px;
+	}
+}
+
 .portfolio-item-details span {
 	display: inline-block;
 	border-top: 1px solid #fff;
