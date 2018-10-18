@@ -601,7 +601,8 @@ ul {
 	padding: 80px 30px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-	/* height: 100vh; */
+    /* height: 100vh; */
+    margin-bottom: 9%;
 }
 
 .about-item2 i {
@@ -2240,6 +2241,26 @@ ul#navbar-nav>li>a:hover, ul#navbar-nav>li>a:focus {
 	opacity: .8;
 	background: url(../img/vertical-nav/4.svg);
 }
+.vertical-nav ul #ver-nav-7::after {
+	content: '';
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	right: 22px;
+	top: 50%;
+	opacity: .8;
+    background: url(../img/vertical-nav/3.svg);
+}
+.vertical-nav ul #ver-nav-8::after {
+	content: '';
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	right: 22px;
+	top: 50%;
+	opacity: .8;
+	background: url(../img/vertical-nav/3.svg);
+}
 
 .vertical-nav ul a::before {
 	/* line visible next to the active navigation item */
@@ -2277,6 +2298,7 @@ ul#navbar-nav>li>a:hover, ul#navbar-nav>li>a:focus {
 .vertical-nav ul li:nth-of-type(5) a::after {
 	background-position: -16px 0;
 }
+
 
 .vertical-nav ul span {
 	/* navigation item labels */
@@ -2395,6 +2417,7 @@ ul#navbar-nav>li>a:hover, ul#navbar-nav>li>a:focus {
 	-moz-animation-delay: 0.25s;
 	animation-delay: 0.25s;
 }
+
 
 @-webkit-keyframes scaleIn {
 	from {
