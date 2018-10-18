@@ -481,7 +481,7 @@
     }
 
     .author img {
-        width: 80px !important;
+        width: 100px !important;
     }
 
     /* Pricing */
@@ -576,8 +576,12 @@
 
     /* Testimonials */
     .testimonial h3 {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 18px;
+    }
+
+    .testimonial img {
+        width: 50px
     }
 
     .testimonial .stars {
