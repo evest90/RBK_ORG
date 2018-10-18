@@ -119,10 +119,10 @@ $(function () {
         src: $(
           `
                     <h3 style="color:white; text-align:center">
-                    How To Ace An Interview In The Modern World
+                    Interim Coaching/ID Development
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    You will not only learn how to write a meaningful CV. As part of your training, you will be coached on how to enhance your interviewing skills in order to accurately convey your personality, abilities and technical skills. Just as importantly, and as part of the 21st century requirements, we will help you develop and update your online presence on a variety of platforms including Quora and Linkedin.
+                       Talk about stuff here
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -153,10 +153,10 @@ $(function () {
         src: $(
           `
                     <h3 style="color:white; text-align:center">
-                    Enhanced Technical Mentoring
+                    Workshops/Tech/Mentorship by Companies
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    During the Immersive stage of your course, you will not only be trained using the latest technical curriculum alone. Mentoring by market experienced Software Engineers from top companies operating in Jordan will be baked into your course. With this, you will gain valuable knowledge in how to incorporate what you have learned using methodologies applied by real companies in the real world.
+                       Talk about stuff here
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -187,10 +187,10 @@ $(function () {
         src: $(
           `
                     <h3 style="color:white; text-align:center">
-                    21st Century Soft Skills
+                    Soft Skills
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    In the real world, employers do not only seek technical proficiency. More crucial are the soft skills that companies would like to see in their staff. These range from the ability to teach, problem solving, critical thinking, creativity and many more. During your journey, these skills will be integrated into your daily schedule to make you one of the most wanted programmers on the market.
+                       Talk about stuff here
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -255,10 +255,10 @@ $(function () {
         src: $(
           `
                     <h3 style="color:white; text-align:center">
-                    Your Mind And Body
+                    Health/Meditation
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    As your days will be long, we ensure that your mind and body are treated in a manner that can support your learning. You will experience a variety of activities that are designed to relieve your stress and help keep your mind sharp and ready. From meditation to yoga, we take care to provide you with an environment that promotes the absorption of continuous learning.
+                       Talk about stuff here
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -326,7 +326,7 @@ $(function () {
                     Counselor
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    The Immersive Course can be quite stressful due to the amount of information you will be required to digest in short periods of time. Your days will be long and some might find this difficult. The stress is not limited to students. Even the staff encounter tough days and need to express their frustration. So you don’t have to keep the pressure inside you, we have provided an in-house counsellor who is ready to listen and give you advice.
+                    Throughout your journey, you will be supported, If you’re feeling down, want to give up and break something, then talk to our class counsellor. Don’t be shy, they also take care of our staff !
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -360,7 +360,7 @@ $(function () {
                     Transportation
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    During the Immersive Course, RBK provides transportation to its students. Unfortunately, this is only available to students who live within the Greater Amman area.
+                    Starting from Immersive phase, RBK provides local transportation for those who live in Greater Amman area. 
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -394,7 +394,7 @@ $(function () {
                     Housing
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    During the Immersive Course, and since your days will be extremely long, RBK provides basic housing for those who live outside the Greater Amman area. Because the space is extremely limited, housing is allocated on a first-come first-served basis.
+                    Starting from Immersive phase, Housing is limited and only available to those living outside Amman. It is available on a first come, first served basis. RBK does not provide stipends to students. 
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -428,7 +428,7 @@ $(function () {
                     Meals
                     </h3>
                     <div style="color:white; text-align:center; margin: 30px 100px";>
-                    We take your health and ability to learn very seriously. RBK students during the Immersive Course will be offered three meals a day prepared by our in-house chef. The meals are carefully planned in order to supply you with adequate protein, vitamins, fats and carbohydrates so that you don’t have to worry about exhausting your brain or body as you create your future.
+                    Starting from Immersive phase, RBK provides 3 healthy meals a day and considers all nutrition needs for its students.
                     </div>
                     <div style="text-align:center">
                       <button 
@@ -500,64 +500,28 @@ $(function () {
     //change the div contan class bfore h3 col-md-6 col-sm-6 col-xs-6
     const $element = '<div class="testimonial">'
 
-      + '<div class="row" style="margin-bottom:20px">'
-      + '<h1 ><b>' + element.occupation + '</b></h1>'
-      + '<h3 >' + element.company + '</h3>' 
-      + '</div>'
+      + '<div class="row">'
+      + '<h3>' + element.occupation + '</h3>'
+      + '<p>' + element.company + '</p>' + '</div>'
+
+      + '<div class="author">'
 
       + '<div class="row">'
 
-      + '<div class=" author" style="display:flex;">'
+      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;">'
 
-      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;" >'
       + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
-      + '</div>'
-
-      + '<div class="col-md-10 col-sm-3 col-xs-6" style="align-self:center;">'
-
-      + '<div class="author-name-des">'
-      + '<p><b>' + element.name + '</b></p>'
-      + '<p>' + element.cohort_number + '</p>'
-      + '<p>' + element.nationality  + '</p>'
-      + '</div>'
 
       + '</div>'
-      +'</div>'
-      + '<p "><b>“</b><i>' + element.quote + ' </i><b>”</b></p>'
-
-
-
-            
-      +'</div>'
-      +'</div>'
-
-      /*
-       + '<div class="row">'
-
-      + '<div class=" author">'
-
-      // + '<div class="d-flex align-items-center">'
-      + '<div class="col-md-2" style="padding-left:0px;padding-right:0px;" >'
-      + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
-      + '</div>'
-
-      + '<div class="col-md-10">'
-
+//d-flex justify-content-center align-items-center
+      + '<div class="col-md-10 col-sm-3 col-xs-6 ">'
       + '<div class="author-name-des">'
       + '<p><b>' + element.name + '</b></p>'
       + '<p>' + element.cohort_number + '</p>'
       + '<p><b>' + element.nationality + '</b></p>'
-      // +'<br>'
-      + '<p style="margin:0px;"><b>“</b>' + element.quote + '<b>”</b></p>'
       + '</div>'
-
-      + '</div>'
-      
-      // + '</div>'
-
-
-      +'</div>'
-      */
+      + '<p style="margin:0px;">“' + element.quote + '”</p>'
+      + '</div> </div> </div> </div>'
     $('#testimonial-slider').append($element)
   }
   $("#testimonial-slider").owlCarousel({
@@ -596,7 +560,7 @@ $(function () {
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
     const $element = '<div class="client"><a target="_blank" href="' + element.url + '"><img src="' + element.image + '" class="img-responsive" alt="client"></a></div>'
-
+    
     //  $('a').on('click', function() {
     //    console.log('element url', element.url)
     //    window.open(`${element.url}`);
