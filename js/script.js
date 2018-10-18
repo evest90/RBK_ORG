@@ -118,12 +118,12 @@ $(function () {
       {
         src: $(
           `
-                    <h3 style="color:white; text-align:center">
+                    <h3 style="color:white; text-align:center; font-size:40px">
                     How To Ace An Interview In The Modern World
                     </h3>
-                    <div style="color:white; text-align:center; margin: 30px 100px";>
+                    <p style="color:white; text-align:center; margin: 30px 150px";>
                     You will not only learn how to write a meaningful CV. As part of your training, you will be coached on how to enhance your interviewing skills in order to accurately convey your personality, abilities and technical skills. Just as importantly, and as part of the 21st century requirements, we will help you develop and update your online presence on a variety of platforms including Quora and Linkedin.
-                    </div>
+                    </p>
                     <div style="text-align:center">
                       <button 
                         style="color: #fff;
