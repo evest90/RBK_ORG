@@ -518,12 +518,12 @@ $(function () {
       + '<div class="author-name-des">'
       + '<p><b>' + element.name + '</b></p>'
       + '<p>' + element.cohort_number + '</p>'
-      + '<p><b>' + element.nationality  + '</b></p>'
+      + '<p>' + element.nationality  + '</p>'
       + '</div>'
 
       + '</div>'
       +'</div>'
-      + '<p ">“<b>' + element.quote + '</b>”</p>'
+      + '<p "><b>“</b><i>' + element.quote + ' </i><b>”</b></p>'
 
 
 
