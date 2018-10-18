@@ -477,21 +477,21 @@ ul {
 }
 
 .about-item {
-	background-color: #fff;
-	padding: 80px 30px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-	height: 100vh;
+    background-color: #fff;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    /* height: 100vh; */
 }
 
 @media only screen and (max-width: 767px) {
-	.about-item {
-		/* background-color: #fff; */
-		/* padding: 80px 30px; */
-		/* -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
-		/* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
-		height: 60vh;
-	}
+    .about-item {
+        /* background-color: #fff; */
+        /* padding: 80px 30px; */
+        /* -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+        /* height: 60vh; */
+    }
 }
 
 .about-item i {
@@ -526,17 +526,17 @@ ul {
 	line-height: 24px;
 }
 
-@media only screen and (min-width: 767px) {
-	.about-item p {
-		font-size: 11px;
-	}
+/* @media only screen and (min-width: 767px) {
+    .about-item p {
+    font-size: 11px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-	.about-item p {
-		font-size: 13px;
-	}
-}
+    .about-item p {
+    font-size: 13px;
+    }
+} */
 
 .daily-schedule-headline {
 	color: #b40381;
@@ -597,11 +597,11 @@ ul {
 }
 
 .about-item2 {
-	background-color: #fff;
-	padding: 80px 30px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-	height: 100vh;
+    background-color: #fff;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    /* height: 100vh; */
 }
 
 .about-item2 i {
@@ -636,17 +636,17 @@ ul {
 	line-height: 24px;
 }
 
-@media only screen and (min-width: 767px) {
-	.about-item2 li {
-		font-size: 11px;
-	}
+/* @media only screen and (min-width: 767px) {
+    .about-item2 li {
+    font-size: 11px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-	.about-item2 li {
-		font-size: 13px;
-	}
-}
+    .about-item2 li {
+    font-size: 13px;
+    }
+} */
 
 /* Hover state */
 
@@ -974,6 +974,35 @@ ul.social-list li:nth-child(3) a:hover {
 .service-tab img {
 	width: 100%;
 	margin: 0 auto;
+}
+
+.hack-reactor-logo {
+    margin-top: 100px;
+}
+
+.angular-logo {
+    margin-top: -70px;
+}
+
+@media screen and (max-width: 991px) {
+    .hack-reactor-logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .angular-logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .node-logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 .service-tab .tab-bg {
@@ -1344,6 +1373,8 @@ ul.social-list li:nth-child(3) a:hover {
 
 #testimonials .vertical-heading {
 	margin-top: 80px;
+/*     padding: 80px 0;
+    margin-bottom: 50px; */
 }
 
 #testimonial-slider {
