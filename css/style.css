@@ -1009,6 +1009,11 @@ ul.social-list li:nth-child(3) a:hover {
 	height: auto;
 }
 
+.senior {
+	width: 420px;
+	height: auto;
+}
+
 @media screen and (max-width: 991px) {
 	.hack-reactor-logo {
 		margin: 0 auto;
@@ -1030,6 +1035,13 @@ ul.social-list li:nth-child(3) a:hover {
 	}
 }
 
+@media screen and (max-width: 991px) {
+	.senior {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
+
 @media screen and (max-width: 485px) {
 	.prep {
 		width: 300px;
@@ -1048,12 +1060,21 @@ ul.social-list li:nth-child(3) a:hover {
 	}
 }
 
-@media screen and (max-width: 991px) {
-	.node-logo {
+@media screen and (max-width: 485px) {
+	.senior {
+		width: 300px;
+		height: auto;
 		margin: 0 auto;
 		margin-bottom: 20px;
 	}
 }
+
+/* @media screen and (max-width: 991px) {
+	.node-logo {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+} */
 
 .service-tab .tab-bg {
 	background: #fff;
