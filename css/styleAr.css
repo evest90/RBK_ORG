@@ -415,10 +415,12 @@ ul {
     position: relative;
     top: 60px;
     left: -53px;
+    
 }
 
 .vertical-heading h2 {
     margin: 0 0 0 35px;
+    text-align: right;
 }
 
 .horizontal-heading h2,
@@ -449,8 +451,10 @@ ul {
                 About 01
 ============================================ */
 
-#about-right p:first-child {
+#about-right p {
     margin-bottom: 30px;
+    text-align: right;
+
 }
 
 #about-bottom {
@@ -512,6 +516,7 @@ ul {
 
 .about-item p {
     margin-top: 20px;
+    text-align: right;
 }
 
 .about-item ul {
@@ -707,6 +712,7 @@ ul {
 
 #team-left .vertical-heading {
     min-height: 160px;
+
 }
 
 .team-member {
@@ -1386,11 +1392,13 @@ ul.social-list li:nth-child(3) a:hover {
 .testimonial .row {
     /* jozaa remove it */
     /* margin-bottom: 25px; */
+    text-align: right;
 }
 
 .testimonial {
     padding: 20px 45px 0 45px;
     color: #fff;
+    text-align: right;
 }
 
 .testimonial h3 {
@@ -1564,19 +1572,9 @@ ul.social-list li:nth-child(3) a:hover {
     background: url("../img/stats/stats-bg.jpg") no-repeat fixed center;
     background-size: cover;
 }
-#stats1 {
-    background: url("../img/stats/stats-bg-1.jpg") no-repeat fixed center;
-    background-size: cover;
-}
 
 #stats .content-box-md {
     background: rgba(0, 0, 0, 0.8);
-}
-
-#stats1 .content-box-md {
-    background: rgba(0, 0, 0, 0.8);
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 
 #stats .vertical-heading {
